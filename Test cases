@@ -1,0 +1,101 @@
+# Przypadki testowe									
+Id scenariusza	Id przypadku testowego	Przypadek testowy	Opis przypadku	Krok testu	Opis kroku	Oczekiwany rezultat	Aktualny rezultat	Status	Komentarz
+1	1	Zmiana numeru telefonu	"Użytkownik powienien mięć moż
+liwość zmiany numeru telefonu"	warunek wstępny	Posiadanie konta na allegro ??				
+				1	"otwarcie strony 
+https://allegro.pl/moje-allegro/moje-konto/dane-konta/"	"Otwarcie strony 
+głównej allegro"	strona wyświetliła się 	PASS	
+				2	"Zalogowanie się na wła
+sne konto"	Jesteśmy zalogowani	Zalogowaliśmy się 	PASS	
+				3	"Kliknięcie w Twoje imie np..""Piotr""
+"	"Otworzenie zakładki z ""zakupy"",""sprzedaż"",
+""konto"""	"Ukazanie się trzech pól 
+wyboru"	PASS	
+				4	"Kliknięcie ""Konto""
+"	"Pokazanie się zielonego
+napisu ""Moje Konto"""	Ukazanie się "Moje Konto"	PASS	
+				5	"Kliknięcie ""Moje konto""
+"	"Ukazanie się  pola 
+z ustawieniami konta"	"Widoczne są wewnętrzne
+dane konta"	PASS	
+				6	"Kliknięcie przycisku
+""ZMIEŃ"" w  ""Twoje dane"""	"Ukazanie się  pola 
+z ustawieniami konta"	"Na stronie wyświetlony jest
+adre email, numer tel.
+Itp."	PASS	
+				7	"Kliknięcie przycisku
+""ZMIEŃ"" w Telefon komurkowy"	"Możliwość zmiany 
+numeru tefonu"	"Ukazuję się aktualny
+numer telefonu"	PASS	
+				8	"W polu numer telefonu
+wpisujemy na aktualny"	"Pole w którym 
+wpiszemy nasz numer telfonu"	"Kasujemy stary numer 
+i wpisujemy nasz nowy"	PASS	
+				9	"PO wpisaniu nowego
+numeru klikamy przycisk
+""Dalej"""	"Wyświetlenie napisu
+""podaj sms kod"""	Prośba o podanie "sms kod"	PASS	
+				10	"Wpisanie ""SMS KOD""
+oraz kliknięcie ""Zweryfikuj""
+"	"Przejście do ""Twoje
+dane"" "	"W ""Twoich danych"" pokazuję
+się aktualny numer telefonu"	PASS	
+1	2	Zmiana adresu zamieszkania	"Użytkownik powienien mięć moż
+liwość zmianę adresu zamieszkania"	warunek wstępny	Posiadanie konta na allegro				
+				1	"otwarcie strony 
+https://allegro.pl/moje-allegro/moje-konto/dane-konta/"	"Otwarcie strony 
+głównej allegro"	strona wyświetliła się 	PASS	
+				2	"Zalogowanie się na wła
+sne konto"	Jesteśmy zalogowani	Zalogowaliśmy się 	PASS	
+				3	"Kliknięcie w Twoje imie np..""Piotr""
+"	"Otworzenie zakładki z ""zakupy"",""sprzedaż"",
+""konto"""	"Ukazanie się trzech pól 
+wyboru"	PASS	
+				4	"Kliknięcie ""Konto""
+"	"Pokazanie się zielonego
+napisu ""Moje Konto"""	Ukazanie się "Moje Konto"	PASS	
+				5	"Kliknięcie ""Moje konto""
+"	"Ukazanie się  pola 
+z ustawieniami konta"	"Widoczne są wewnętrzne
+dane konta"	PASS	
+				6	"Kliknięcie przycisku
+""ZMIEŃ"" w  ""Twoje dane"""	"Ukazanie się  pola 
+z ustawieniami konta"	"Na stronie wyświetlony jest
+adres email, numer tel.
+Itp."	PASS	
+				7	"Kliknięcie ""zmień"" pod
+""Twój adres"""	"Pokazuje się okienko
+ze zmianą adresu"	"Okienko z możliwością zmiany
+adresu"	PASS	
+				8	"Wypełnienie adresu po
+rawnymi danymi oraz 
+kliknięcie przycisku 
+""Zapisz"""	"Powrót do okna
+""Twoje dane"""	"Pokazanie się sekcji 
+""Twoje dane"""	PASS	
+1	3	Usunięcie karty płatniczej	"Użytkownik powienien mięć moż
+liwość usunięcia karty płatniczej"	warunek wstępny	Posiadanie konta na allegro				
+				1	"otwarcie strony 
+https://allegro.pl/moje-allegro/moje-konto/dane-konta/"	"Otwarcie strony 
+głównej allegro"	strona wyświetliła się 	PASS	
+				2	"Zalogowanie się na wła
+sne konto"	Jesteśmy zalogowani	Zalogowaliśmy się 	PASS	
+				3	"Kliknięcie w Twoje imie np..""Piotr""
+"	"Otworzenie zakładki z ""zakupy"",""sprzedaż"",
+""konto"""	"Ukazanie się trzech pól 
+wyboru"	PASS	
+				4	"Kliknięcie ""Konto""
+"	"Pokazanie się zielonego
+napisu ""Moje Konto"""	Ukazanie się "Moje Konto"	PASS	
+				5	"Kliknięcie ""Moje konto""
+"	"Ukazanie się  pola 
+z ustawieniami konta"	"Widoczne są wewnętrzne
+dane konta"	PASS	
+				6	"Kliknięcie przycisku
+""ZOBACZ"" w  ""KARTY PŁATNICZE"""	Pojawiają się nam dostępne karty	Strona wyświetla dostępne karty	PASS	
+				7	Kliknięcie "usuń kartę"	"Pojawia się komunikat 
+czy na pewno jesteśmy 
+pewni aby usunąć kartę ?"	"Pojawia się zapytania dotyczące
+usunięcia karty."	PASS	
+				8	Wybieramy opcję "Usuń"	Karta zostaje usunieta	Przechodzimy "Moje karty"	PASS	"Kartę udaję się 
+usunąć za drugim razem"
